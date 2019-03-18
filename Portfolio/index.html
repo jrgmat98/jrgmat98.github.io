@@ -1,41 +1,49 @@
 <!doctype html>
-<html>
+<html lang="ES">
 	<head>
 		<meta charset="utf-8">
 		<title>Jorge Mateo</title>
 		<link href="def.css" rel="stylesheet">
 	</head>
-
 	<body>
-		<div id="Titulo"><h1>Jorge Mateo</h1></div>
-		<nav class="navbar ">
-		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="apartados">
-			  <li class="nav-item active">
-				<a class="nav-link" href="#">Inicio</a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link" href="#">Contacto</a>
-			  </li>
-			  <li class="nav-item dropdown">
-				<a class="nav-link" href="#" id="navbarDropdown">
-				Trabajos
-				</a>
-				<div class="dropdown-menu" >
-				  <a class="dropdown-item" href="#">Animacion</a>
-				  <a class="dropdown-item" href="#">Shadding y Lighting</a>
-				  <a class="dropdown-item" href="#">Modelado</a>
-					<a class="dropdown-item" href="#">Rigging</a>
-					<a class="dropdown-item" href="#">Composicion</a>
-					<a class="dropdown-item" href="#">Unity</a>
+		<div class="encabezado">
+			<div id="Titulo"><h1>Jorge Mateo</h1></div>
+			<div class="menudis">
+				<nav class="menu">
+					<ul class="opciones1">
+						<li><a href="index.html"> Inicio </a></li>
+						<li><a href="contacto.html"> Contacto </a></li>
+						<li><a href="Demo.html"> Demo</a></li>
+						<li><a href="#"> Trabajos </a>
+							<ul class="opciones2">
+								<li><a href="Animacion.html">Animacion</a></li>
+								<li><a href="Rigging.html">Rigging</a></li>
+								<li><a href="Composicion.html">Composicion</a></li>
+								<li><a href="Acabados.html">Shading and lighting</a></li>
+								<li><a href="Modelado.html">Modelado</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div id="presentacion2">
+				<div id="ContenidPagInc">
+					<h1 class="centrar">Bienvenido a mi pagina web</h1>
+					<h3 class="centrar">Ultimos trabajos</h3>
 				</div>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link disabled" href="#">Disabled</a>
-			  </li>
-			</ul>
-		  </div>
-		</nav>
-		<h1>PAGINA EN CONSTRUCCION</h1>
+				<div class="ContenidPagInc">
+					<p class="centrar">Titulo del trabajo</p>
+					<div class="centrarVideos">
+						<iframe class ="frameborder" width="920" height="540" src="https://www.youtube.com/embed/zF5Ddo9JdpY" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+					</div>
+				</div>
+				<div class="ContenidPagInc">
+					<p class="centrar">Titulo del trabajo</p>
+					<div class="centrarImagen">
+						<img class="centerImagen" src="https://vignette.wikia.nocookie.net/bravefrontierglobal/images/b/bf/Unit_ills_full_820547.png/revision/latest?cb=20170928140450" alt="Ultimo Dibujo">
+					</div>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
